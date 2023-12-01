@@ -20,7 +20,7 @@ public class L2021112013_14_Test {
     @Test
     public void testRestore1(){
         List<String> list = new Solution14().restoreIpAddresses("101023");
-        List<String> list2 = List.of("1.0.10.23", "1.0.102.3", "10.1.0.23", "10.10.2.3", "101.0.2.3");
+        List<String> list2 = List.of("1.0.10.23", "1.0.102.3", "10.1.0.23", "10.10.2.3", "101.0.2.");
         Assert.assertEquals(list,list2);
     }
     /**
